@@ -5,7 +5,7 @@ import nLayeredKodlamaIO.entities.Course;
 import nLayeredKodlamaIO.entities.Educator;
 
 public class JdbcProductDao implements ProductDao{
-
+	//Function Overloading
 	@Override
 	public void add(Category category) {
 		System.out.println("Added with Jdbc to database: "+ category.getCategoryName());

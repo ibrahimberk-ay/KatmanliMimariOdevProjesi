@@ -1,11 +1,13 @@
 package nLayeredKodlamaIO.entities;
 
 public class Course {
+	//Attribute Tanımlamaları
 	private String courseName;
 	private String educatorName;
 	private int percentage;
 	private int price;
 	
+	//Constructor
 	public Course(String courseName, String educatorName, int percentage,int price) {
 		this.courseName = courseName;
 		this.educatorName = educatorName;
@@ -13,6 +15,7 @@ public class Course {
 		this.price = price;
 	}
 
+	//Getters and Setters
 	public String getCourseName() {
 		return courseName;
 	}

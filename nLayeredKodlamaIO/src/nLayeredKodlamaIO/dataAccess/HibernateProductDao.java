@@ -5,6 +5,7 @@ import nLayeredKodlamaIO.entities.Course;
 import nLayeredKodlamaIO.entities.Educator;
 
 public class HibernateProductDao implements ProductDao {
+	//Function Overloading
 	@Override
 	public void add(Category category) {
 		System.out.println("Added with Hibernate to database: "+ category.getCategoryName());
